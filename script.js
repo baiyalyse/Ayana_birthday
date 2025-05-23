@@ -50,6 +50,7 @@ let leftSide = true;
 
 btn.addEventListener('click', () => {
     btn.disabled = true; // блокируем кнопку после нажатия
+    document.getElementById("bgMusic").play();
     showCompliments();
 });
 
