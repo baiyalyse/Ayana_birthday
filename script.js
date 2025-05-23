@@ -79,7 +79,7 @@ function showCompliments() {
     leftSide = !leftSide; // меняем сторону (асимметрия)
 
     index++;
-    setTimeout(showCompliments, 800); // следующий комплимент через 0.8с
+    setTimeout(showCompliments, 1000); // следующий комплимент через 1.0с
     }
 
     // Эффект плавающих сердечек
